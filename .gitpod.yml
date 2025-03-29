@@ -10,4 +10,4 @@ tasks:
       sudo rstudio-server start
       echo "********************************************"
       echo "Now you have to complete the creation of a new user: type a password, confirm it, accept the other defaults and complete the user. Then login to the RStudio Server using this new user and their password "
-      sudo adduser rstudio
+      echo "type the following, or change rstudio to a username of your choice:\nsudo adduser rstudio"
